@@ -28,10 +28,10 @@ function Wavers() {
                         paused={false}
                         opacity="1.30"
                         options={{
-                          height: 20,
+                          height: 90,
                           amplitude: 10,
                           speed: 0.2,
-                          points: 3,
+                          points: 20,
                         }}
                       />
                     </WaveContainer>
