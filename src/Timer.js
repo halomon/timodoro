@@ -19,6 +19,7 @@ function Timer() {
     
     
     const settingsInfo = useContext(SettingsContext);
+    
 
     const [isPaused, setIsPaused] = useState(false);
     const [mode, setMode] = useState('work'); //work/break/null
@@ -44,6 +45,7 @@ function Timer() {
 
             setSecondsLeft(nextSeconds);
             secondsLeftRef.current = nextSeconds;
+            return nextMode;
         }
 
         secondsLeftRef.current = settingsInfo.workMinutes * 60;

@@ -9,7 +9,7 @@
 body{
   
   /* background-color: #30384b; */
-  background-color: #9BD7D1;
+  background-color: #2A363B;
   min-height:400px;
 
 
@@ -18,9 +18,9 @@ body{
 
 main{
 
-  padding-top: 40%;
+  padding-top: 250px;
 
-  max-width: 340px;
+  max-width: 300px;
 
   margin: 0 auto;
 
