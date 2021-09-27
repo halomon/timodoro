@@ -1,0 +1,78 @@
+:root{
+  --red: #F9A26C;
+  --green: #9BD7D1;
+  /* --red: #FF847C; */
+  /* --green: #99B898; */
+}
+
+body{
+  
+  /* background-color: #30384b; */
+  background-color: #1e2425;
+
+  color: rgba(255,255,255,0.8);
+}
+
+main{
+
+  padding-top: 50px;
+
+  max-width: 340px;
+
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+button{ 
+  background-color: transparent;
+  color: rgba(255,255,255,0.8);
+  border:0;
+  display: inline-block;
+  width: 69px;
+  cursor: pointer;
+}
+
+button.with-text{
+  width: auto;
+  background-color:rgba(255,255,2555,0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  line-height: 36px;
+}
+
+button.with-text svg{
+  width: 36px;
+  float: left;
+  margin-right: 5px;
+}
+
+label {
+  display:block;
+
+  margin-bottom: 14px;
+
+  margin-top: 20px;
+
+  text-transform: capitalize;
+}
+wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+wave svg {
+  position: relative;
+  display: block;
+  width: calc(197% + 1.3px);
+  height: 140px;
+}
+
+wave .shape-fill {
+  fill: #871A93;
+}
