@@ -24,6 +24,7 @@ function Timer() {
     const [isPaused, setIsPaused] = useState(false);
     const [mode, setMode] = useState('work'); //work/break/null
     const [secondsLeft, setSecondsLeft ] = useState(0);
+    const [waveMode, setWaveMode] = useState('work');
 
     const secondsLeftRef = useRef(secondsLeft);
     const isPausedRef = useRef(isPaused);
@@ -42,10 +43,12 @@ function Timer() {
             
             setMode(nextMode);
             modeRef.current = nextMode;
+            // waveMode=nextMode;
+            setWaveMode(nextMode);
 
             setSecondsLeft(nextSeconds);
             secondsLeftRef.current = nextSeconds;
-            return nextMode;
+            return waveMode;
         }
 
         secondsLeftRef.current = settingsInfo.workMinutes * 60;
