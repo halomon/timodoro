@@ -7,6 +7,7 @@ import ReactDOM from "react-dom";
 import Wave from 'react-wavify';
 import Wavers from './Wavers';
 import "./Styles.css";
+import mode from './Timer';
 
 
 
@@ -15,9 +16,11 @@ function App() {
   const [workMinutes, setWorkMinutes] = useState(30);
   const [breakMinutes, setBreakMinutes] = useState(7.5);
 
+
   return (
 
     <div>
+  
 
  
       <main>
