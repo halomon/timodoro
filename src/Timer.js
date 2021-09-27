@@ -7,6 +7,7 @@ import { useContext, useState, useEffect, useRef } from 'react';
 import SettingsContext from './SettingsContext';
 import MoveBack from './MoveBack';
 import Wave from 'react-wavify';
+import Wavers from './Wavers';
 
 //<MoveBack />;
 
@@ -78,7 +79,7 @@ function Timer() {
 
     <div>
         
-        
+        <Wavers />
         <CircularProgressbar
         value={percentage} 
         text={minutes + ':' + seconds}//{percentage+`%`}

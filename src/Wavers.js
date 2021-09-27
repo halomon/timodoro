@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import ReactDOM from 'react-dom';
 import Wave from 'react-wavify';
 import styled from '@emotion/styled';
+import mode from './Timer';
+import IsPaused from './Timer';
 
 import './Styles.css';
 
@@ -18,9 +20,9 @@ const WaveContainer = styled.div`
 
 
 function Wavers() {
+
+
       return(
-
-
                   <div style={{ marginTop: "-200px" }}>
                     <WaveContainer level={100}>
                       <Wave
@@ -31,7 +33,7 @@ function Wavers() {
                           height: 90,
                           amplitude: 10,
                           speed: 0.2,
-                          points: 20,
+                          points: 3,
                         }}
                       />
                     </WaveContainer>

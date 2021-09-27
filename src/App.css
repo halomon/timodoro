@@ -1,6 +1,6 @@
 
 :root{
-  --red: #F9A26C;
+  --red: #FF847C;
   --green: #9BD7D1;
   /* --red: #FF847C; */
   /* --green: #99B898; */
@@ -10,7 +10,7 @@ body{
   
   /* background-color: #30384b; */
   background-color: #9BD7D1;
-
+  min-height:400px;
 
 
   color: rgba(255,255,255,0.8);
@@ -18,7 +18,7 @@ body{
 
 main{
 
-  padding-top: 50px;
+  padding-top: 40%;
 
   max-width: 340px;
 

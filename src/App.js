@@ -31,13 +31,16 @@ function App() {
           setBreakMinutes,
         }}>
           {showSettings ? <Settings /> : <Timer />}
+          {/* <Wavers /> */}
+          {/* {showSettings ? <Wavers /> : <WaversSettings />} */}
           
         </SettingsContext.Provider>
         
       </main>
 
 )
-<Wavers />
+{/* <Wavers /> */}
+
     </div>
       
   );
