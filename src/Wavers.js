@@ -4,6 +4,7 @@ import Wave from 'react-wavify';
 import styled from '@emotion/styled';
 import mode from './Timer';
 import IsPaused from './Timer';
+import nextMode from './Timer';
 
 import './Styles.css';
 
@@ -37,7 +38,7 @@ function Wavers() {
                         }}
                       />
                     </WaveContainer>
-                    <WaveContainer level={40}>
+                    <WaveContainer level={90}>
                       <Wave
                         fill="#00959e"
                         opacity="1.80"
@@ -50,7 +51,7 @@ function Wavers() {
                         }}
                       />
                     </WaveContainer>
-                    <WaveContainer level={20}>
+                    <WaveContainer level={80}>
                       <Wave
                         fill="#01838a"
                         paused={false}
