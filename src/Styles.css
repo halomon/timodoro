@@ -1,0 +1,12 @@
+:root {
+    --dark: rgba(0, 0, 0, 0.75);
+    --hid: #325D79;
+    --line: #EFEEEE;
+    --top: #325D79;
+
+  }
+  
+  body {
+    margin: 0;
+  }
+  

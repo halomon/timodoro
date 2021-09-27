@@ -6,14 +6,17 @@ import SettingsButton from './SettingsButton';
 import { useContext, useState, useEffect, useRef } from 'react';
 import SettingsContext from './SettingsContext';
 import MoveBack from './MoveBack';
+import Wave from 'react-wavify';
 
-<MoveBack />;
-<custom-shape-divider-top-1632652121/>
+//<MoveBack />;
+
 
 const red = '#f54e4e';
 const green = '#4aec8c';
 
 function Timer() {
+    
+    
     const settingsInfo = useContext(SettingsContext);
 
     const [isPaused, setIsPaused] = useState(false);
@@ -70,7 +73,12 @@ function Timer() {
 
     return (
 
+        
+        
+
     <div>
+        
+        
         <CircularProgressbar
         value={percentage} 
         text={minutes + ':' + seconds}//{percentage+`%`}
@@ -87,6 +95,7 @@ function Timer() {
             <div style={{marginTop:'20px'}}>
                 <SettingsButton onClick={() => settingsInfo.setShowSettings(true)} />
             </div>
+            
     </div>
     );
 }
